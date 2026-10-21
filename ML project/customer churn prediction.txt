@@ -1,0 +1,10 @@
+import pandas as pd
+data={"Age":[22,35,45,28,52,40,30,60],
+    "Monthly_charges":[30,70,90,40,100,80,50,110],
+    "Tenure":[2,12,24,5,36,,18,8,48],"
+    "Contract":["Monthly","yearly","yearly","Monthly","yearly","Monthly","Monthly","yearly"],
+    "Churn":["yes","No","No","yes","yes","No","yes","yes"]
+}
+df=pd.DataFrame(data)
+print(df)
+X=df["]
